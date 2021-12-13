@@ -1,3 +1,4 @@
+[ORIGINAL SOURCE](https://github.com/overextended/oxmysql/)
 ### Introduction
 Oxmysql is an alternative to the unmaintained mysql-async/ghmattimysql resources, utilising [node-mysql2](https://github.com/sidorares/node-mysql2) rather than [mysqljs](https://github.com/mysqljs/mysql).  
 
