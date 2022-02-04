@@ -1,21 +1,18 @@
-fx_version 'adamant'
+fx_version 'cerulean'
 game 'common'
 
 name 'ghmattimysql'
-description 'Database wrapper for FiveM utilising node-mysql2 offering improved performance and security. Original https://github.com/overextended/oxmysql'
-version '1.8.7'
+description 'Database wrapper for FiveM utilising node-mysql2 offering improved performance and security.'
+version '1.9.2'
 url 'https://github.com/VORPCORE/ghmattimysql-oxmysql'
 author 'overextended'
-use_fxv2_oal 'yes'
-lua54 'yes'
 
---dependencies {
---	'/server:4837',  Disabled until the heat death of the universe (or recommended artifact updates)
---}
+dependencies {
+	'/server:5104',
+}
 
 server_scripts {
-	'oxmysql.js',
-	'wrapper.lua'
+	'dist/server/build.js',
 }
 
 provide 'mysql-async'
